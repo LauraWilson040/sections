@@ -6,7 +6,8 @@ html {
 }
 
 figure {
-
+  display: inline-block;
+  text-align: center;
 }
 
 .title {
