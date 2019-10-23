@@ -16,7 +16,7 @@ body {
 
 figure {
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
   padding: 1em 2em .75em 1em;
 }
 
@@ -29,8 +29,8 @@ figure {
 }
 
 .button {
-  border: 1px solid #666;
-  border-radius: 5px;
+  border: 1rem solid #666;
+  border-radius: 5rem;
   padding: .4em .5em;
   display: inline;
   text-align: center;
@@ -39,7 +39,7 @@ figure {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 12rem;
   color: #333;
 
   text-decoration: none;
@@ -48,8 +48,8 @@ figure {
 
 .button:hover {
   background-color: #666;
-  border: 1px solid #333;
-  border-radius: 5px;
+  border: 1rem solid #333;
+  border-radius: 5rem;
   padding: .4em .5em;
 
   color: black;
