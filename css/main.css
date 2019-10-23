@@ -22,16 +22,18 @@ figure {
 
 .title {
   text-align: left;
+  padding: .75em 1em;
 }
 
 .text {
   text-align: left;
+  padding: .75em 1em;
 }
 
 .button {
   border: 1rem solid #666;
   border-radius: 5rem;
-  padding: .4em .5em;
+  padding: .1em .75em;
   display: inline;
   text-align: center;
   float: left;
@@ -39,7 +41,7 @@ figure {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   font-weight: bold;
-  font-size: 12rem;
+  font-size: 1rem;
   color: #333;
 
   text-decoration: none;
@@ -50,7 +52,7 @@ figure {
   background-color: #666;
   border: 1rem solid #333;
   border-radius: 5rem;
-  padding: .4em .5em;
+  padding: .1em .75em;
 
   color: black;
 
