@@ -9,7 +9,6 @@ html {
 header {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
-  max-width: 25em;
 }
 
 body {
@@ -17,50 +16,57 @@ body {
   margin: 1.5rem;
 }
 
-figure {
-  padding: 0;
+section {
+  width: 50%
+  max-width: 25em;
+  min-width: 0em;
 }
 
 img {
-  vertical-align: middle;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
 }
 
 .title {
+  display: inline-block;
+  vertical-align: left;
   text-align: left;
-  padding: .4em .5em;
-  width: 25em;
+
+  padding: inherit;
 }
 
 .text {
+  display: inline-block;
+  vertical-align: left;
   text-align: left;
-  padding: .4em .5em;
-  width: 25em;
+
+  padding: inherit;
 }
 
 .button {
-  border: .4em solid #666;
-  border-radius: .75em;
+  width: 50%
+  max-width: 25em;
+  min-width: 0em;
+  border: 1px solid #333;
+
+  border-radius: 5px;
+
+  margin: 1.5rem;
+
   padding: 1em 2em;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
-  margin: 25rem;
-
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #333;
 
   text-decoration: none;
   list-style-type: none;
 }
 
 .button:hover {
-  border: .4em solid #666;
+  border: .75em solid #666;
   border-radius: .75em;
-  padding: 1em 2em;
+  padding: .4em .5em;
   display: inline-block;
   text-align: center;
   margin: 25rem;
