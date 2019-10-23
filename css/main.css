@@ -11,6 +11,7 @@ body {
   font-family: Lato, sans-serif;
   line-height: 1.5;
   margin: 1.5rem;
+  width: 50%;
 }
 
 figure {
@@ -40,6 +41,9 @@ figure {
   font-weight: bold;
   font-size: 12px;
   color: #333;
+
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .button:hover {
@@ -47,4 +51,9 @@ figure {
   border: 1px solid #333;
   border-radius: 5px;
   padding: .4em .5em;
+
+  color: black;
+
+  text-decoration: none;
+  list-style-type: none;
 }
