@@ -9,6 +9,7 @@ html {
 header {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
+  max-width: 25em;
 }
 
 body {
