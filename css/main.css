@@ -15,7 +15,7 @@ body {
 
 figure {
   display: inline-block;
-  text-align: center;
+  vertical-align: center;
 }
 
 .title {
