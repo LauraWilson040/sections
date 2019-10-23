@@ -16,8 +16,11 @@ body {
 
 figure {
   display: inline-block;
-  vertical-align: middle;
   padding: 1em 2em .75em 1em;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .title {
