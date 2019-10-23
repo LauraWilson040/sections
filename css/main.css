@@ -31,9 +31,9 @@ figure {
 }
 
 .button {
-  border: 1rem solid #666;
-  border-radius: 5rem;
-  padding: .1em .75em;
+  border: .4em solid #666;
+  border-radius: .75em;
+  padding: 1em 2em;
   display: inline;
   text-align: center;
   float: left;
@@ -50,9 +50,9 @@ figure {
 
 .button:hover {
   background-color: #666;
-  border: 1rem solid #333;
-  border-radius: 5rem;
-  padding: .1em .75em;
+  border: .4em solid #333;
+  border-radius: .75em;
+  padding: 1em 2em;
 
   color: black;
 
