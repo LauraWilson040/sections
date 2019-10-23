@@ -1,6 +1,12 @@
 html {
   background-color: #eee9de;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  margin: 1.5rem;
+}
+
+figure {
+
 }
 
 .title {
@@ -12,5 +18,24 @@ html {
 }
 
 .button {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: .4em .5em;
+  display: inline;
+  vertical-align: center;
+  text-align: center;
+  float: left;
 
+  background-color: #eee9de;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+  color: #333;
+}
+
+.button:hover {
+  background-color: #666;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: .4em .5em;
 }
