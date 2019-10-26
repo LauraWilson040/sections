@@ -16,25 +16,12 @@ body {
   margin: 1.5;
 }
 
-section1 {
+section {
   max-width: 25em;
   min-width: 0;
   width: 50%;
 
   display: block;
-
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-section2 {
-  max-width: 25em;
-  min-width: 0;
-  width: 50%;
-
-  display: inline;
 
   margin-top: 0;
   margin-left: 0;
