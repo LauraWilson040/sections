@@ -13,7 +13,7 @@ header {
 
 body {
   line-height: 1.5;
-  margin: 1.5;
+  margin: 1.5em;
 }
 
 section {
@@ -38,7 +38,7 @@ img {
 
 .title {
   font-family: Lato, sans-serif;
-  font-style: bold;
+  font-style: oblique;
   display: inline-block;
   vertical-align: inherit;
   text-align: left;
@@ -78,7 +78,7 @@ img {
   max-width: 25em;
   min-width: 0;
   border: 1px solid #333;
-  background-color: #666
+  background-color: #666;
 
   border-radius: 5px;
 
