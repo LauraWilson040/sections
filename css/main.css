@@ -9,28 +9,49 @@ html {
 header {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
-  margin: 1.5rem;
 }
 
 body {
   line-height: 1.5;
-  margin: 2rem;
+  margin: 1.5;
 }
 
-section {
-  width: 50%;
+section1 {
   max-width: 25em;
   min-width: 0;
+  width: 50%;
+
+  display: block;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+section2 {
+  max-width: 25em;
+  min-width: 0;
+  width: 50%;
+
+  display: inline;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 img {
-  width: 150%;
+  width: 100%;
   display: inline-block;
-  vertical-align: middle;
   text-align: center;
+  vertical-align: middle;
 }
 
 .title {
+  font-family: Lato, sans-serif;
+  font-style: bold;
   display: inline-block;
   vertical-align: inherit;
   text-align: left;
@@ -66,18 +87,20 @@ img {
 }
 
 .button:hover {
-  border: .75em solid #666;
-  border-radius: .75em;
+  width: 50%;
+  max-width: 25em;
+  min-width: 0;
+  border: 1px solid #333;
+  background-color: #666
+
+  border-radius: 5px;
+
+  margin: 1.5rem;
+
   padding: .4em .5em;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
-  margin: 25rem;
-
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #333;
 
   text-decoration: none;
   list-style-type: none;
