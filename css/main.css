@@ -38,7 +38,6 @@ img {
 
 .title {
   font-family: Lato, sans-serif;
-  font-style: oblique;
   display: inline-block;
   vertical-align: inherit;
   text-align: left;
@@ -65,7 +64,7 @@ img {
   margin: 1.5rem;
 
   padding: .4em .5em;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
   text-align: center;
 
@@ -85,7 +84,7 @@ img {
   margin: 1.5rem;
 
   padding: .4em .5em;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
   text-align: center;
 
