@@ -31,7 +31,7 @@ section {
 
 img {
   width: 100%;
-  display: inline-block;
+  display: block;
   text-align: center;
   vertical-align: middle;
 }
@@ -53,8 +53,7 @@ img {
   padding: inherit;
 }
 
-.button {
-  width: 50%;
+.btn {
   max-width: 25em;
   min-width: 0;
   border: 1px solid #333;
@@ -64,7 +63,6 @@ img {
   margin: 1.5rem;
 
   padding: .4em .5em;
-  display: inline;
   vertical-align: middle;
   text-align: center;
 
@@ -72,7 +70,7 @@ img {
   list-style-type: none;
 }
 
-.button:hover {
+.btn:hover {
   width: 50%;
   max-width: 25em;
   min-width: 0;
@@ -84,7 +82,6 @@ img {
   margin: 1.5rem;
 
   padding: .4em .5em;
-  display: inline;
   vertical-align: middle;
   text-align: center;
 
