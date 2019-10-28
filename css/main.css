@@ -13,7 +13,7 @@ header {
 
 body {
   line-height: 1.5;
-  margin: 1.5rem;
+  margin: 0;
 }
 
 section {
@@ -30,7 +30,7 @@ section {
 }
 
 img {
-  width: 50%;
+  width: 100%;
   display: block;
   text-align: center;
 }
