@@ -24,9 +24,9 @@ section {
   line-height: 1.5;
 
   margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-left: .4em;
+  margin-right: .4em;
+  margin-bottom: .5em;
 }
 
 img {
@@ -38,18 +38,18 @@ img {
 .title {
   font-family: Lato, sans-serif;
   display: inline-block;
-  vertical-align: inherit;
   text-align: left;
 
-  padding: inherit;
+  padding-left: .4em;
+  padding-bottom: .5em;
 }
 
 .text {
   display: inline-block;
-  vertical-align: inherit;
   text-align: left;
 
-  padding: inherit;
+  padding-left: .4em;
+  padding-bottom: .5em;
 }
 
 .btn {
