@@ -12,7 +12,6 @@ header {
 }
 
 body {
-  line-height: 1.5;
   margin: 0;
 }
 
@@ -22,6 +21,7 @@ section {
   width: 100%;
 
   display: block;
+  line-height: 1.5;
 
   margin-top: 0;
   margin-left: 0;
