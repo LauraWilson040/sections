@@ -15,7 +15,6 @@ body {
 
 section {
   max-width: 25em;
-  min-width: 0;
   width: 100%;
 
   display: block;
@@ -27,7 +26,7 @@ section {
 }
 
 img {
-  width: 150%;
+  width: 100%;
   display: block;
   padding-top: 2em;
   padding-left: .4em;
@@ -35,53 +34,34 @@ img {
 }
 
 .title {
-  display: inline-block;
-  text-align: left;
-
-  padding-left: .4em;
-  padding-bottom: .5em;
+  display: inline;
+  padding: 2em .4em;
 }
 
 .text {
-  display: inline-block;
-  text-align: left;
+  display: inline;
+  padding: 2em .4em;
 
-  padding-left: .4em;
-  padding-bottom: .5em;
 }
 
 .btn {
-  max-width: 25em;
-  min-width: 0;
   border: 1px solid #333;
-
+  background-color: #eee9de;
   border-radius: 5px;
-
-  margin: 1.5rem;
-
   padding: .4em .5em;
-  vertical-align: middle;
-  text-align: center;
 
+  text-align: center;
   text-decoration: none;
   list-style-type: none;
 }
 
 .btn:hover {
-  width: 50%;
-  max-width: 25em;
-  min-width: 0;
   border: 1px solid #333;
   background-color: #666;
-
   border-radius: 5px;
-
-  margin: 1.5rem;
-
   padding: .4em .5em;
-  vertical-align: middle;
-  text-align: center;
 
+  text-align: center;
   text-decoration: none;
   list-style-type: none;
 }
