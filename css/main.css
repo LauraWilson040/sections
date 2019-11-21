@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
 }
@@ -27,9 +27,11 @@ section {
 }
 
 img {
-  width: 100%;
+  width: 150%;
   display: block;
-  text-align: center;
+  padding-top: 2em;
+  padding-left: .4em;
+  padding-right: .4em;
 }
 
 .title {
