@@ -15,10 +15,6 @@ body {
 
 section {
   max-width: 25em;
-  width: 100%;
-  margin: 0;
-
-  display: block;
 
   padding-left: .4em;
   padding-right: .4em;
@@ -28,9 +24,7 @@ section {
 img {
   width: 100%;
   display: block;
-  padding-top: 2em;
-  padding-left: .4em;
-  padding-right: .4em;
+  padding: 2em .5em;
 }
 
 div {
@@ -65,7 +59,6 @@ div {
   border: 1px solid #333;
   background-color: #666;
   border-radius: 5px;
-  padding: .4em .5em;
 
   vertical-align: middle;
   text-align: center;
