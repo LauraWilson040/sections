@@ -16,13 +16,13 @@ body {
 section {
   max-width: 25em;
   width: 100%;
+  margin: 0;
 
   display: block;
 
-  margin-top: 0;
-  margin-left: .4em;
-  margin-right: .4em;
-  margin-bottom: .5em;
+  padding-left: .4em;
+  padding-right: .4em;
+  padding-bottom: .5em;
 }
 
 img {
@@ -31,6 +31,10 @@ img {
   padding-top: 2em;
   padding-left: .4em;
   padding-right: .4em;
+}
+
+div {
+  margin: 1.5rem;
 }
 
 .title {
