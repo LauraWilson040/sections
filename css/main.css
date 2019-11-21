@@ -1,14 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #eee9de;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-header {
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
 }
 
 body {
@@ -21,7 +19,6 @@ section {
   width: 100%;
 
   display: block;
-  line-height: 1.5;
 
   margin-top: 0;
   margin-left: .4em;
@@ -36,7 +33,6 @@ img {
 }
 
 .title {
-  font-family: Lato, sans-serif;
   display: inline-block;
   text-align: left;
 
