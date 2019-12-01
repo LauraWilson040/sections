@@ -24,29 +24,31 @@ section {
 img {
   width: 100%;
   display: block;
-  padding: 2em .5em;
+  padding: 2.7em .4em;
 }
 
 div {
   margin: 1.5rem;
+  display: inline-block;
 }
 
 .title {
   display: inline;
   font-weight: bold;
-  padding: 2em .5em;
+  padding: 2em .5em .75em;
 }
 
 .text {
-  display: inline-block;
+  display: inline;
   text-align: left;
 }
 
 .btn {
-  border: 3px solid #333;
+  border: 2px solid #333;
   background-color: #eee9de;
-  border-radius: 5px;
-  padding: .4em .2em;
+  font-style: normal;
+  border-radius: 7px;
+  padding: .2em;
   color: #666;
 
   vertical-align: middle;
@@ -57,10 +59,11 @@ div {
 }
 
 .btn:hover {
-  border: 3px solid #333;
+  border: 2px solid #666;
   background-color: #666;
-  border-radius: 5px;
-  padding: .4em .2em;
+  border-radius: 7px;
+  font-style: normal;
+  padding: .2em;
   color: #fff;
 
   vertical-align: middle;
