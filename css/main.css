@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Lato, sans-serif;
   background-color: #eee9de;
-  line-height: 1.5;
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,7 +14,6 @@ body {
 
 section {
   max-width: 25em;
-
   padding-left: .4em;
   padding-right: .4em;
   padding-bottom: .5em;
@@ -24,28 +22,25 @@ section {
 img {
   width: 100%;
   display: block;
-  padding: 2.7em .4em;
+  padding: 3em .5em 1.8em;
 }
 
 div {
-  margin: 1.5rem;
   display: inline-block;
+  line-height: 1.5;
 }
 
 .title {
-  display: inline;
   font-weight: bold;
-  padding: 2em .5em .75em;
 }
 
 .text {
-  display: inline;
   text-align: left;
 }
 
 .btn {
-  border: 2px solid #333;
   background-color: #eee9de;
+  border: 3px solid #333;
   font-style: normal;
   border-radius: 7px;
   padding: .2em;
@@ -53,14 +48,11 @@ div {
 
   vertical-align: middle;
   text-align: center;
-
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .btn:hover {
-  border: 2px solid #666;
   background-color: #666;
+  border: 3px solid #333;
   border-radius: 7px;
   font-style: normal;
   padding: .2em;
@@ -68,7 +60,4 @@ div {
 
   vertical-align: middle;
   text-align: center;
-
-  text-decoration: none;
-  list-style-type: none;
 }
