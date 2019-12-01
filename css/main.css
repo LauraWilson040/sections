@@ -43,21 +43,17 @@ div {
   border: 3px solid #333;
   font-style: normal;
   border-radius: 7px;
-  padding: .2em;
+  font-size: 1.1rem;
+  padding: .5em;
+  width: 130px;
   color: #666;
 
   vertical-align: middle;
+  text-decoration: none;
   text-align: center;
 }
 
 .btn:hover {
   background-color: #666;
-  border: 3px solid #333;
-  border-radius: 7px;
-  font-style: normal;
-  padding: .2em;
   color: #fff;
-
-  vertical-align: middle;
-  text-align: center;
 }
